@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import {View, StyleSheet} from 'react-native'
 import {Header} from "../Header/Header"
 import {BackArrowButton} from "../UI/BackArrowButton"
-import * as Icon from "@vkontakte/icons/dist/28/";
 import {DonationButton} from "../UI/DonationButton";
 
 export const CreateList = ({setCreate}) => {

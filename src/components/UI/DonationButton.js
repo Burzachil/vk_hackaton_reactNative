@@ -7,7 +7,6 @@ export const DonationButton = ({type}) => {
     return (
         <View style={style.default}>
             <View style={style.container}>
-                {type.icon}
                 <View style={style.textContainer}>
                     <AppText style={style.title}>{type.title}</AppText>
                     <AppText style={style.subTitle}>{type.subTitle}</AppText>
